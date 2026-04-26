@@ -5,11 +5,9 @@ import uuid
 from abc import abstractmethod
 from collections.abc import AsyncIterator, Iterator
 from typing import Any
-
 import httpx
 from loguru import logger
-from openai import AsyncOpenAI
-
+from openai import AsyncOpenAI running_async=True
 from providers.base import BaseProvider, ProviderConfig
 from providers.common import (
     ContentType,
