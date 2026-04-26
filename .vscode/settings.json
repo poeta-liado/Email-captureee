@@ -1,18 +1,1 @@
 {
-    "python.testing.unittestArgs": [
-        "-v",
-        "-s",
-        "./free-claude-code-main",
-        "-p",
-        "*test.py"
-    ],
-    "python.testing.pytestEnabled": false,
-    "python.testing.unittestEnabled": true,
-    "python.REPL.enableREPLSmartSend": false
-}/search Gherkin feature file for "I want to use the free version of Claude to generate code for me"
-Feature: Generate code using the free version of Claude
-
-  Scenario: User wants to use the free version of Claude to generate code
-    Given I have access to the free version of Claude
-    When I ask Claude to generate code for me
-    Then Claude should provide me with the generated code
