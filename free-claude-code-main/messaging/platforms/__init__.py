@@ -9,4 +9,4 @@ __all__ = [
     "MessagingPlatform",
     "SessionManagerInterface",
     "create_messaging_platform",
-]
+]email client = """email client adapter, currently only supports gmail, but can be extended to support other email providers in the future."""
