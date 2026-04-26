@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>JupyterLab</title><meta name="viewport" content="width=device-width,initial-scale=1">   <script id="jupyter-config-data" type="application/json">{"allow_hidden_files": false, "appName": "JupyterLab", "appNamespace": "lab", "appSettingsDir": "/home/codespace/.local/share/jupyter/lab/settings", "appUrl": "/lab", "appVersion": "4.5.5", "baseUrl": "/", "buildAvailable": true, "buildCheck": true, "cacheFiles": false, "copyAbsolutePath": false, "delete_to_trash": true, "devMode": false, "disabledExtensions": [], "exposeAppInBrowser": false, "extensionManager": {"can_install": true, "install_path": "/usr/local/python/3.12.1", "name": "PyPI"}, "extraLabextensionsPath": [], "federated_extensions": [{"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.5cbb9d2323598fbda535.js", "name": "jupyterlab_pygments", "style": "./style"}, {"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.399ca30148d086cfdea3.js", "name": "nbdime-jupyterlab", "style": "./style"}, {"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.76a80ec9845e990decd8.js", "name": "@jupyterlab/git", "style": "./style"}], "fullAppUrl": "/lab", "fullLabextensionsUrl": "/lab/extensions", "fullLicensesUrl": "/lab/api/licenses", "fullListingsUrl": "/lab/api/listings", "fullMathjaxUrl": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js", "fullSettingsUrl": "/lab/api/settings", "fullStaticUrl": "/static/lab", "fullThemesUrl": "/lab/api/themes", "fullTranslationsApiUrl": "/lab/api/translations", "fullTreeUrl": "/lab/tree", "fullWorkspacesApiUrl": "/lab/api/workspaces", "ignorePlugins": [], "labextensionsPath": ["/home/codespace/.local/share/jupyter/labextensions", "/usr/local/python/3.12.1/share/jupyter/labextensions", "/usr/local/share/jupyter/labextensions", "/usr/share/jupyter/labextensions"], "labextensionsUrl": "/lab/extensions", "licensesUrl": "/lab/api/licenses", "listingsUrl": "/lab/api/listings", "mathjaxConfig": "TeX-AMS_HTML-full,Safe", "mode": "multiple-document", "news": {"disabled": false}, "notebookStartsKernel": true, "notebookVersion": "[2, 17, 0]", "preferredPath": "/", "quitButton": true, "rootUri": "file:///workspaces/Email-captureee", "schemasDir": "/home/codespace/.local/share/jupyter/lab/schemas", "serverRoot": "/workspaces/Email-captureee", "settingsUrl": "/lab/api/settings", "staticDir": "/home/codespace/.local/share/jupyter/lab/static", "store_id": 1, "templatesDir": "/home/codespace/.local/share/jupyter/lab/static", "terminalsAvailable": true, "themesDir": "/home/codespace/.local/share/jupyter/lab/themes", "themesUrl": "/lab/api/themes", "token": "8fa1a415cf0688560e7ab907c9635c9e5c5baddfc882fc51", "translationsApiUrl": "/lab/api/translations", "treePath": "emailcapture", "treeUrl": "/lab/tree", "untracked_message_types": ["comm_info_request", "comm_info_reply", "kernel_info_request", "kernel_info_reply", "shutdown_request", "shutdown_reply", "interrupt_request", "interrupt_reply", "debug_request", "debug_reply", "stream", "display_data", "update_display_data", "execute_input", "execute_result", "error", "status", "clear_output", "debug_event", "input_request", "input_reply"], "userSettingsDir": "/home/codespace/.jupyter/lab/user-settings", "virtualDocumentsUri": "file:///workspaces/Email-captureee/.virtual_documents", "workspace": "default", "workspacesApiUrl": "/lab/api/workspaces", "workspacesDir": "/home/codespace/.jupyter/lab/workspaces", "wsUrl": ""}</script><link rel="icon" type="image/x-icon" href="/static/favicons/favicon.ico" class="idle favicon"><link rel="" type="image/x-icon" href="/static/favicons/favicon-busy-1.ico" class="busy favicon"> <script defer="defer" src="/static/lab/main.0a8b453df61deb67f669.js?v=0a8b453df61deb67f669"></script></head><body class="jp-ThemedContainer"><script>/* Remove token from URL. */
+  (function () {
+    var location = window.location;
+    var search = location.search;
+
+    // If there is no query string, bail.
+    if (search.length <= 1) {
+      return;
+    }
+
+    // Rebuild the query string without the `token`.
+    var query = '?' + search.slice(1).split('&')
+      .filter(function (param) { return param.split('=')[0] !== 'token'; })
+      .join('&');
+
+    // Rebuild the URL with the new query string.
+    var url = location.origin + location.pathname +
+      (query !== '?' ? query : '') + location.hash;
+
+    if (url === location.href) {
+      return;
+    }
+
+    window.history.replaceState({ }, '', url);
+  })();</script></body></html>

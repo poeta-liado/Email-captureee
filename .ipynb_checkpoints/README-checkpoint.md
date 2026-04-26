@@ -8,7 +8,7 @@ const { EventEmitter } = require('events');
 const app = express();
 app.use(cors());
 app.use(express.json());
-'git help check-ref-format''git help check-ref-format'
+
 // ============================================================================
 // AGENT CLASS - Each instance scans a specific region or category
 // ============================================================================
